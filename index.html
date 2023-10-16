@@ -4,15 +4,16 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="/dist/output.css" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
 
   <title>Simple Call-to-Action/Tailwind Recreation</title>
 </head>
+<!-- I tried using hsl in this color gradient to give the exact colors but all the tutorials lead to be installing the npm version of tailwind so I just converted the hsl to hex codes which this tailwind accepts-->
 <body class="h-screen bg-gradient-to-b from-[#e6e8e3] to-[#3d49d1] min-w-[30ch]">
   <article class="m-auto max-w-[50ch] text-white bg-black mt-[15rem]
   rounded-[1rem] text-[20px] p-6 drop-shadow-2xl font-serif">
       <p class="m-auto block max-w-max p-5">This link is going to a youtube clips channel and has a funny video!</p>
+      <!-- In my old project there was no hover effect, so in this one I added a new hover effect-->
       <a class="m-auto block max-w-max p-5 bg-red-600 rounded-[25px] hover:bg-red-200 hover:text-black"
       href="https://www.youtube.com/watch?v=UWwNIMHFdW4">Watch Video</a>
   </article>
